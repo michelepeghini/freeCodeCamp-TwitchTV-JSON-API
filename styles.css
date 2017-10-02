@@ -1,0 +1,39 @@
+/* TEMPLATE STYLES */
+
+body {
+  min-width: 345px;
+}
+
+#top_header {
+  color:#ffffff;
+  background-color: #006400;
+  margin: 0 auto;
+  padding: 20px 0 30px 0;
+}
+
+#credits {
+  border: 2px solid #006400;
+  box-shadow: 5px 5px 10px #006400;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#credits h2 {
+  margin: 10px auto 20px auto;
+  color: #006400;
+}
+
+#credits p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#credits a {
+  color: #006400;
+}
+
+#credits .row {
+  margin-bottom: 20px;
+}

@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>freeCodeCamp: </title>	<!-- TITLE -->
+	<title>freeCodeCamp: Twithch.TV JSON API</title>	<!-- TITLE -->
   	<meta name="author" content="Michele Peghini">
 	<meta name="description" content=""> <!-- DESCRIPTION -->
-	<meta name="keywords" content="HTML5,CSS3,JSON,JavaScript,jQuery,Bootstrap,freeCodeCamp,weatherApp"> <!-- TAGS, CSV -->
+	<meta name="keywords" content="HTML5,CSS3,JSON,JavaScript,jQuery,Bootstrap,freeCodeCamp,Twitch.TV API"> <!-- TAGS, CSV -->
 	
 	<!-- CDN -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -19,15 +19,43 @@
 
 <body>
   <div class="container">
-    <h1 id="top_header" class="text-center">freeCodeCamp: </h1>
+    <h1 id="top_header" class="text-center">freeCodeCamp: Twitch.TV JSON API</h1>
     
-    
+    <!-- Twitch.TV widget START-->
+    <div id="twitch" class="panel panel-default">
+      
+       <div class="panel panel-heading">
+        <a href="https://www.twitch.tv" target="_blank"><img src="http://cdn.embed.ly/providers/logos/twitchtv.png" alt="Twitch.tv" title="Twitch.tv" id="twitch_logo" height="40px"></a>
+        <h2>JSON API</h2>
+      </div>
+      
+      <div class="panel panel-body">
+        <ul class="nav nav-tabs">
+          <li id="channels_tab" class="active" role="button">Channels</li>
+          <li id="streams_tab" role="button">Streams</li>
+        </ul>
+        
+        <div id="channels">
+          <!-- channels API data -->
+        </div>
+        
+        <div id="streams">
+          <!-- streams API data -->
+        </div>
+        
+      </div>
+      
+    </div>
+    <!-- Twitch.TV widget END-->
     
     <footer id="credits" class="content_block text-center">
       <h2>Credits:</h2>
       <div class="row">
-        <div class="col-xs-12">
-          <!--<p class="text-center">Wiki Quote API thanks to: <a href="https://github.com/natetyler/wikiquotes-api" target="_blank">Nate Tyler</a></p>-->
+        <div class="col-sm-12 col-md-6">
+          <p class="text-center"><a href="https://dev.twitch.tv/api" target="_blank">Twitch.TV API</a></p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <p class="text-center"><a href="https://wind-bow.glitch.me/twitch-api/" target="_blank">Twitch.TV API proxy</a></p>
         </div>
       </div>
       

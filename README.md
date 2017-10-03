@@ -35,9 +35,18 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Screenshots
 
-![###](/###.png "###")
+**Desktop view:** shows Channels tab with one highligthed strip (hover) and error messages for channels not found
+
+![Twitch.TV Channels tab](/TwitchTV-channels.png "Twitch.TV Channels tab")
+
+--------------------
+
+**Mobile view:** shows Streams tab with stacked strip elements
+
+![Twitch.TV Streams tab](/TwitchTV-streams.png "Twitch.TV Streams tab")
 
 ## APIs / Libraries used
+
 * [Twitch.TV API](https://dev.twitch.tv/api)
 * [Twitch.TV API proxy](https://wind-bow.glitch.me/twitch-api/) 
 * jQuery 3.2.1
